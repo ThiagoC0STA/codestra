@@ -8,7 +8,6 @@ const ParallaxContainer = dynamic(
     ssr: false, // Disable server-side rendering
   }
 );
-import { allPortfolios } from "@/data/portfolio";
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import AnimatedText from "@/components/common/AnimatedText";
 import { portfolios1 } from "@/data/portfolio";
