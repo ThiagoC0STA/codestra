@@ -1,3 +1,4 @@
+import React from "react";
 import Home1 from "@/components/homes/home-1";
 import dynamic from "next/dynamic";
 const ParallaxContainer = dynamic(
