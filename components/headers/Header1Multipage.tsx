@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Nav2 from "./components/Nav2";
-import LanguageSelect from "./components/LanguageSelect";
 
 export default function Header1Multipage({ links }: any) {
   return (
