@@ -8,7 +8,6 @@ const ParallaxContainer = dynamic(
   }
 );
 import Header1Multipage from "@/components/headers/Header1Multipage";
-import AnimatedText from "@/components/common/AnimatedText";
 import React from "react";
 import Faq from "@/components/common/Faq";
 import Contact2 from "@/components/homes/home-1/Contact2";
@@ -16,7 +15,8 @@ import { menuItemsDark } from "@/data/menu";
 
 export const metadata = {
   title: "CNP Mídia | Entre em Contato",
-  description: "Entre em contato com a CNP Mídia para impulsionar sua presença digital com nossas soluções personalizadas de marketing digital e gestão de redes sociais.",
+  description:
+    "Entre em contato com a CNP Mídia para impulsionar sua presença digital com nossas soluções personalizadas de marketing digital e gestão de redes sociais.",
 };
 
 export default function MainAboutPage1Dark() {
@@ -33,8 +33,7 @@ export default function MainAboutPage1Dark() {
                 <ParallaxContainer
                   className="page-section pb-100 pb-sm-60 bg-dark-1 bg-dark-alpha-80 light-content parallax-5"
                   style={{
-                    backgroundImage:
-                      "url(/assets/images/texture2.jpeg)",
+                    backgroundImage: "url(/assets/images/texture2.jpeg)",
                   }}
                 >
                   <>
@@ -98,7 +97,10 @@ export default function MainAboutPage1Dark() {
                           Perguntas Frequentes
                         </h3>
                         <p className="text-gray mb-0">
-                          Tire suas dúvidas sobre nossos serviços de marketing digital e gestão de redes sociais. Estamos aqui para ajudar sua empresa a crescer no ambiente digital com estratégias personalizadas e resultados comprovados.
+                          Tire suas dúvidas sobre nossos serviços de marketing
+                          digital e gestão de redes sociais. Estamos aqui para
+                          ajudar sua empresa a crescer no ambiente digital com
+                          estratégias personalizadas e resultados comprovados.
                         </p>
                       </div>
                       <div className="col-md-6 offset-lg-1 pt-10 pt-sm-0">
